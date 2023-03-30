@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		A5400C2629AC31D900A69571 /* Sample_Project_Sharing_Sesssion_Swift_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5400C2529AC31D900A69571 /* Sample_Project_Sharing_Sesssion_Swift_UIApp.swift */; };
-		A5400C2829AC31D900A69571 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5400C2729AC31D900A69571 /* ContentView.swift */; };
 		A5400C2A29AC31DB00A69571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5400C2929AC31DB00A69571 /* Assets.xcassets */; };
 		A5400C2D29AC31DB00A69571 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5400C2C29AC31DB00A69571 /* Preview Assets.xcassets */; };
+		A5400C3529AC321F00A69571 /* EmployeeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5400C3429AC321F00A69571 /* EmployeeRow.swift */; };
+		A5400C3929AC32D700A69571 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5400C3729AC32D700A69571 /* DataSource.swift */; };
+		A5400C3A29AC32D700A69571 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5400C3829AC32D700A69571 /* Employee.swift */; };
+		A5400C3C29AC37AD00A69571 /* EmployeeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5400C3B29AC37AD00A69571 /* EmployeeList.swift */; };
+		A56C29CF29D5512400C6F625 /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C29CE29D5512400C6F625 /* SliderExample.swift */; };
+		A56C29D129D564D700C6F625 /* ExampleStateAndBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C29D029D564D700C6F625 /* ExampleStateAndBinding.swift */; };
+		A598BA5829B3570B005AFE16 /* EmployeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A598BA5729B3570B005AFE16 /* EmployeeDetailView.swift */; };
+		A598BA5A29B35FDF005AFE16 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A598BA5929B35FDF005AFE16 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5400C2229AC31D900A69571 /* Sample Project Sharing Sesssion Swift UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample Project Sharing Sesssion Swift UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5400C2529AC31D900A69571 /* Sample_Project_Sharing_Sesssion_Swift_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Project_Sharing_Sesssion_Swift_UIApp.swift; sourceTree = "<group>"; };
-		A5400C2729AC31D900A69571 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5400C2929AC31DB00A69571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5400C2C29AC31DB00A69571 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5400C3429AC321F00A69571 /* EmployeeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRow.swift; sourceTree = "<group>"; };
+		A5400C3729AC32D700A69571 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		A5400C3829AC32D700A69571 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		A5400C3B29AC37AD00A69571 /* EmployeeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeList.swift; sourceTree = "<group>"; };
+		A56C29CE29D5512400C6F625 /* SliderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExample.swift; sourceTree = "<group>"; };
+		A56C29D029D564D700C6F625 /* ExampleStateAndBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleStateAndBinding.swift; sourceTree = "<group>"; };
+		A598BA5729B3570B005AFE16 /* EmployeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailView.swift; sourceTree = "<group>"; };
+		A598BA5929B35FDF005AFE16 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A514E55F29D586E900A90CED /* Code Try */ = {
+			isa = PBXGroup;
+			children = (
+				A56C29CE29D5512400C6F625 /* SliderExample.swift */,
+				A56C29D029D564D700C6F625 /* ExampleStateAndBinding.swift */,
+			);
+			path = "Code Try";
+			sourceTree = "<group>";
+		};
 		A5400C1929AC31D900A69571 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +74,9 @@
 		A5400C2429AC31D900A69571 /* Sample Project Sharing Sesssion Swift UI */ = {
 			isa = PBXGroup;
 			children = (
+				A5400C3629AC32B300A69571 /* Data */,
+				A5400C3329AC31F700A69571 /* View */,
 				A5400C2529AC31D900A69571 /* Sample_Project_Sharing_Sesssion_Swift_UIApp.swift */,
-				A5400C2729AC31D900A69571 /* ContentView.swift */,
 				A5400C2929AC31DB00A69571 /* Assets.xcassets */,
 				A5400C2B29AC31DB00A69571 /* Preview Content */,
 			);
@@ -65,6 +89,27 @@
 				A5400C2C29AC31DB00A69571 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5400C3329AC31F700A69571 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A514E55F29D586E900A90CED /* Code Try */,
+				A5400C3429AC321F00A69571 /* EmployeeRow.swift */,
+				A5400C3B29AC37AD00A69571 /* EmployeeList.swift */,
+				A598BA5729B3570B005AFE16 /* EmployeeDetailView.swift */,
+				A598BA5929B35FDF005AFE16 /* TextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5400C3629AC32B300A69571 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A5400C3729AC32D700A69571 /* DataSource.swift */,
+				A5400C3829AC32D700A69571 /* Employee.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5400C2829AC31D900A69571 /* ContentView.swift in Sources */,
+				A56C29CF29D5512400C6F625 /* SliderExample.swift in Sources */,
+				A598BA5A29B35FDF005AFE16 /* TextView.swift in Sources */,
+				A5400C3529AC321F00A69571 /* EmployeeRow.swift in Sources */,
+				A56C29D129D564D700C6F625 /* ExampleStateAndBinding.swift in Sources */,
+				A5400C3929AC32D700A69571 /* DataSource.swift in Sources */,
+				A598BA5829B3570B005AFE16 /* EmployeeDetailView.swift in Sources */,
+				A5400C3C29AC37AD00A69571 /* EmployeeList.swift in Sources */,
+				A5400C3A29AC32D700A69571 /* Employee.swift in Sources */,
 				A5400C2629AC31D900A69571 /* Sample_Project_Sharing_Sesssion_Swift_UIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

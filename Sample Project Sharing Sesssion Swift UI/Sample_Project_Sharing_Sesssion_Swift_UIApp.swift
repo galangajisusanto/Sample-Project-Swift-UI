@@ -11,7 +11,7 @@ import SwiftUI
 struct Sample_Project_Sharing_Sesssion_Swift_UIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EmployeeList()
         }
     }
 }
